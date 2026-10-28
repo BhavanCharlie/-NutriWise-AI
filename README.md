@@ -61,10 +61,9 @@ pytest              # 71 unit tests: offline, no API calls, about 10 seconds
 pytest -m live      # 2 smoke tests against the real Gemini and USDA APIs (uses a little quota)
 ```
 
-The unit tests block the network and use a temporary meal log, so they never touch your real data
-or spend quota. They cover parsing, lookups, API relevance matching, the LLM fallback and retry logic,
-pipeline fallbacks (including a crashing stage and no internet), storage (corrupt files, 50 concurrent
-saves, a crash mid-write) and the UI handlers.
+<img width="1563" height="847" alt="Screenshot 2026-10-28 at 8 12 59 AM" src="https://github.com/user-attachments/assets/6dc24147-3d86-4826-8abd-1dee66995e92" />
+
+
 
 ## Project structure
 
