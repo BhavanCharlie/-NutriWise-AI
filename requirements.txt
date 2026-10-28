@@ -1,0 +1,12 @@
+# --- Core app ---
+gradio>=4.44          # web UI framework (Step 3)
+pydantic>=2.7         # structured, validated outputs (Step 2)
+python-dotenv>=1.0    # loads API keys from a .env file
+requests>=2.31        # HTTP calls to nutrition APIs / Groq / OpenRouter
+
+# --- LLM providers ---
+google-genai>=1.0     # official Google Gemini SDK
+
+# --- Dev / testing ---
+pytest>=8.0
+jupyter>=1.0

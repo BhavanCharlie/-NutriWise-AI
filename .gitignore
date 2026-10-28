@@ -1,0 +1,11 @@
+.venv/
+.env
+__pycache__/
+*.pyc
+.DS_Store
+.claude/
+data/meals.json
+.ipynb_checkpoints/
+data/*.tmp
+data/*.corrupt-*.json
+.pytest_cache/
